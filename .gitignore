@@ -1,0 +1,9 @@
+$ cat .gitignore
+config.php
+/concrete
+/crowdcatal
+/neograd
+/Search-Replace
+/VoyantServer2_2-M2
+
+
