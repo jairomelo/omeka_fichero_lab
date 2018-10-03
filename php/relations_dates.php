@@ -2,8 +2,22 @@
 
 include('config.php');
 
+// esquema de la tabla
+
 echo "<table style='border: solid 1px black;'>";
-  echo "<tr><th></th><th></th><th>Latitud</th><th>Longitud</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th>Título</th></tr>";
+  echo "<tr>
+  <th>id registro</th>
+  <th>#id del sujeto</th>
+  <th>código de la relación</th>
+  <th>#id del objeto</th>
+  <th>id del elemento</th>
+  <th>tipo de elemento</th>
+  <th>código del elemento fecha</th>
+  <th>error :p</th>
+  <th>fecha del elemento</th>
+  </tr>";
+
+// script para construir la tabla
 
 class TableRows extends RecursiveIteratorIterator { 
      function __construct($it) { 
@@ -22,6 +36,8 @@ class TableRows extends RecursiveIteratorIterator {
          echo "</tr>" . "\n";
      } 
 }
+
+// conectar a mysql y hacer la búsqueda
 
 try {
      $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
