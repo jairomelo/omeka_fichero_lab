@@ -17,4 +17,4 @@ Eres libre de descargar, editar y mejorar el código. Si tienes alguna sugerenci
 	* `georeffquery.php` y `georreff_tables.php` recuperan la información ingresada mediante el plugin [Geolocation](https://omeka.org/classic/plugins/Geolocation)
 	* `name_index.php` y `name_index_all.php` recuperan la información ingresada en el [elemento "Nombres"](http://cibercliografia.org/experimentos/2016/08/16/listado-de-nombres-con-mysql-y-php/).
 	* `relations_dates.php` presenta en una tabla la información ingresada medidante el plugin [Item Relations](https://omeka.org/classic/plugins/ItemRelations)
-	* `year-text.php`(en prueba) presenta la información del año de todos los elementos y son su texto.
+	* `year-text.php`(en prueba) presenta la información del año de todos los elementos y su texto.
