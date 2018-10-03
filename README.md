@@ -14,7 +14,7 @@ Eres libre de descargar, editar y mejorar el código. Si tienes alguna sugerenci
 [12/07/2018](https://github.com/jairomelo/omeka_fichero_lab/tree/96a7339702bab1c40ba4ad46b2d975df190a0d82)
 * Este repositorio fue "recreado" después de haber filtrado, por ignorancia, información de mi conexión a MySQL (usuario, contraseña, etc.)
 * Incluye 6 pequeños programas para recuperar información disponible en Omeka Classic
-** `georeffquery.php` y `georreff_tables.php` recuperan la información ingresada mediante el plugin [Geolocation](https://omeka.org/classic/plugins/Geolocation)
-** `name_index.php` y `name_index_all.php` recuperan la información ingresada en el [elemento "Nombres"](http://cibercliografia.org/experimentos/2016/08/16/listado-de-nombres-con-mysql-y-php/).
-** `relations_dates.php` presenta en una tabla la información ingresada medidante el plugin [Item Relations](https://omeka.org/classic/plugins/ItemRelations)
-** `year-text.php`(en prueba) presenta la información del año de todos los elementos y son su texto.
+	* `georeffquery.php` y `georreff_tables.php` recuperan la información ingresada mediante el plugin [Geolocation](https://omeka.org/classic/plugins/Geolocation)
+	* `name_index.php` y `name_index_all.php` recuperan la información ingresada en el [elemento "Nombres"](http://cibercliografia.org/experimentos/2016/08/16/listado-de-nombres-con-mysql-y-php/).
+	* `relations_dates.php` presenta en una tabla la información ingresada medidante el plugin [Item Relations](https://omeka.org/classic/plugins/ItemRelations)
+	* `year-text.php`(en prueba) presenta la información del año de todos los elementos y son su texto.
