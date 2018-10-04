@@ -1,8 +1,5 @@
 $ cat .gitignore
 config.php
-/concrete
-/crowdcatal
-/neograd
-/Search-Replace
-/VoyantServer2_2-M2
 README.md
+/python/Web_Scraping/__pycache__
+/python/Web_Scraping/*.txt

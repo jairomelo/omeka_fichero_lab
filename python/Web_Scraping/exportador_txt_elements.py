@@ -1,11 +1,13 @@
 from bs4 import BeautifulSoup
 import urllib.request
 # importa el archivo lista.py, que contiene los números de los elementos ("items") dentro del repositorio
-import lista
+import lista_txt
 
 # guarda en la función "url_base" la dirección "estática" de cada elemento
 url_base = "http://localhost/fichero/items/show/{}"
-repeticion = lista.mi_lista
+
+# si esta función no devuelve una cadena no funciona. Puede reemplazarse por una cadena de números separados por comas "x,y,z,a,b..."
+repeticion = lista_txt.mi_cadena
 
 # crea el archivo "texto_elementos.txt" donde se escribirá la información. Puede modificar el nombre del archivo por cualquier otro.
 # modifique el nombre cada vez que haga una modificación, de otra manera el archivo de sobreescribe sin advertencia.
