@@ -3,7 +3,7 @@ import urllib.request
 import re
 
 ## pegar aquí el enlace de la búsqueda
-busca = "http://localhost/fichero/items/browse?search=&advanced%5B0%5D%5Bjoiner%5D=and&advanced%5B0%5D%5Belement_id%5D=40&advanced%5B0%5D%5Btype%5D=contains&advanced%5B0%5D%5Bterms%5D=1781&range=&collection=&type=&user=&tags=&public=&featured=&exhibit=&geolocation-address=&geolocation-latitude=&geolocation-longitude=&geolocation-radius=10&submit_search=Buscar+por+items"
+busca = "http://localhost/fichero/items/browse?search=confesi%C3%B3n&advanced%5B0%5D%5Bjoiner%5D=and&advanced%5B0%5D%5Belement_id%5D=&advanced%5B0%5D%5Btype%5D=&advanced%5B0%5D%5Bterms%5D=&range=&collection=&type=&tags=&featured=&exhibit=&geolocation-address=&geolocation-latitude=&geolocation-longitude=&geolocation-radius=10&submit_search=Buscar+por+items"
 
 ## al cambiar el nombre del archivo asegúrese de hacerlo también en "lista_txt.py"
 f = open("mi_lista.txt", "w+")
