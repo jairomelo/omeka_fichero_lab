@@ -6,15 +6,12 @@ import lista_txt
 # guarda en la función "url_base" la dirección "estática" de cada elemento
 url_base = "http://localhost/fichero/items/show/{}"
 
-# si esta función no devuelve una cadena no funciona. Puede reemplazarse por una cadena de números separados por comas "x,y,z,a,b..."
-repeticion = lista_txt.mi_cadena
+repeticion = lista_txt.mi_cadena # retorna una lista (no array).
 
-rago = len(repeticion)
-rango = rago - 1
+rango = len(repeticion) -1
 
-# crea el archivo "texto_elementos.txt" donde se escribirá la información. Puede modificar el nombre del archivo por cualquier otro.
-# modifique el nombre cada vez que haga una modificación, de otra manera el archivo de sobreescribe sin advertencia.
-f = open("texto_elementos.txt", "w+")
+# crea el archivo "texto_elementos.txt" donde se escribirá la información.
+f = open("texto_elementos.txt", "w+") # cambie el nombre cada vez que haga una modificación, de otra manera el archivo de sobreescribe sin advertencia.
 
 # loop para llamar cada página del repositorio y recolectar solo la información de los div que contengan la clase 'element-text'
 for i in range(rango):
@@ -23,6 +20,6 @@ for i in range(rango):
 	for div in sopa.find_all('div', class_='element-text'):
 		try:
 			f.write(div.text)
-		# En caso de error, el programa seguirá corriendo y recuperará los elementos que pueda escrcibir. (No estoy muy seguro que funcione, así que, recibo sugerencias :p)
+		# En caso de error, el programa seguirá corriendo y recuperará los elementos que pueda escribir. (No estoy muy seguro que funcione, así que, recibo sugerencias :p)
 		except:
 			pass
