@@ -4,7 +4,7 @@ Eres libre de descargar, editar y mejorar el código. Si tienes alguna sugerenci
 
 ## Versiones
 
-[04/11/2018](https://github.com/jairomelo/omeka_fichero_lab/commit/d33066eae901fc24af99475265290e8320f48c68)
+[04/11/2018](https://github.com/jairomelo/omeka_fichero_lab/commit/958d7fd3b6e3aca858dc47a545db5776d41bc708)
 * Eliminado el requisito de ingresar el rango de elementos en `exportador_txt_elements.py`.
 
 [03/10/2018](https://github.com/jairomelo/omeka_fichero_lab/tree/82a801778483ec332afebcaf6d130242a58a10b8)
