@@ -3,7 +3,7 @@ import urllib.request
 import re
 
 ## recuperar sólo los enlaces de una colección
-url = "http://localhost/fichero/items/browse?collection=27"
+url = "http://localhost/fichero/items/browse?collection=5"
 
 ## al cambiar el nombre del archivo asegúrese de hacerlo también en "lista_txt.py"
 f = open("mi_lista.txt", "w+")

@@ -3,3 +3,4 @@ config.php
 README.md
 /python/Web_Scraping/__pycache__
 /python/Web_Scraping/*.txt
+/python/Web_Scraping/*.html
