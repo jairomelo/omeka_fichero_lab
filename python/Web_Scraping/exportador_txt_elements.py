@@ -11,7 +11,7 @@ repeticion = lista_txt.mi_cadena # retorna una lista (no array).
 rango = len(repeticion) -1
 
 # crea el archivo "texto_elementos.txt" donde se escribirá la información.
-f = open("texto_elementos.txt", "w+") # cambie el nombre cada vez que haga una modificación, de otra manera el archivo de sobreescribe sin advertencia.
+f = open("texto_elementos.txt", "w+", encoding='utf-8') # cambie el nombre cada vez que haga una modificación, de otra manera el archivo de sobreescribe sin advertencia.
 
 # loop para llamar cada página del repositorio y recolectar solo la información de los div que contengan la clase 'element-text'
 for i in range(rango):
