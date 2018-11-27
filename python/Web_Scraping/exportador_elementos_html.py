@@ -8,7 +8,7 @@ archivo = input('nombre del archivo de resultados: ')
 host = "http://localhost"
 
 salsa = urllib.request.urlopen(busca).read()
-sopa = BeautifulSoup(salsa, "lxml")
+sopa = BeautifulSoup(salsa, 'html.parser')
 
 rutas = []
 
