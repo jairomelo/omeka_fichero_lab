@@ -27,4 +27,3 @@ for i in range(len(rutas)):
 	sopa = BeautifulSoup(salsa, 'html.parser')
 	for div in sopa.find_all('div', class_='element-text'):
 			f.write(div.prettify())
-doc.close()
