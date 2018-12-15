@@ -49,8 +49,7 @@ time.sleep(2)
 convertir_docx = input('¿Desea convertir el archivo HTML a Word? S/N: ')
 
 if convertir_docx in "S" or "s":
-	archivo_docx = "{}.docx".format(archivo)
-	documento = pypandoc.convert_file(archivo_html, "docx", outputfile=archivo_docx)
+	documento = pypandoc.convert_file(archivo_html, "docx", outputfile="{}.docx".format(archivo))
 	assert documento == ""
 elif convertir_docx in "N" or "n":
 	sys.exit()
