@@ -4,12 +4,12 @@ Eres libre de descargar, editar y mejorar el código. Si tienes alguna sugerenci
 
 ## Versiones
 
-[05/12/2018](https://github.com/jairomelo/omeka_fichero_lab/commit/f526c2f9f05763e7862857d3724f76421f8117a0)
+[05/12/2018](https://github.com/jairomelo/omeka_fichero_lab/tree/f526c2f9f05763e7862857d3724f76421f8117a0)
 * Modificado el exportador txt a exportador HTML con la opción de convertir el resultado a Word (\*.docx).
 * Agregada advertencia para módulos que necesitan ser instalados
 * Ajustada la codificación para crear el archivo HTML en utf-8.
 
-[04/11/2018](https://github.com/jairomelo/omeka_fichero_lab/commit/958d7fd3b6e3aca858dc47a545db5776d41bc708)
+[04/11/2018](https://github.com/jairomelo/omeka_fichero_lab/tree/958d7fd3b6e3aca858dc47a545db5776d41bc708)
 * Eliminado el requisito de ingresar el rango de elementos en `exportador_txt_elements.py`.
 
 [03/10/2018](https://github.com/jairomelo/omeka_fichero_lab/tree/82a801778483ec332afebcaf6d130242a58a10b8)
