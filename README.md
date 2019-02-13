@@ -4,6 +4,10 @@ Eres libre de descargar, editar y mejorar el código. Si tienes alguna sugerenci
 
 ## Versiones
 
+[12/02/2019](https://github.com/jairomelo/omeka_fichero_lab/tree/ea6ce6617099153874bf8735352a15c0cdf34d68)
+* Simplificado el exportador HTML.
+* Se convierten a docx todos los resultados.
+
 [05/12/2018](https://github.com/jairomelo/omeka_fichero_lab/tree/912c934cd9e1a096e1ed0f189d2502f8ed8ffd45)
 * Modificado el exportador txt a exportador HTML con la opción de convertir el resultado a Word (\*.docx).
 * Agregada advertencia para módulos que necesitan ser instalados
