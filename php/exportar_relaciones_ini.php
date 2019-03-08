@@ -12,7 +12,7 @@ if ($conn->connect_error) {
 
 //datos a seleccionar
 // sql query: SELECT * FROM `omeka_locations` WHERE...
-$sql = "SELECT * FROM `omeka_locations`, `omeka_element_texts` WHERE omeka_element_texts.record_type = \"item\" AND omeka_element_texts.element_id = 50 AND omeka_locations.item_id = omeka_element_texts.record_id";
+$sql = "SELECT `subject_item_id`,`property_id`,`object_item_id` FROM `omeka_item_relations_relations`";
 $result = mysqli_query($conn, $sql);
 ?>
 
@@ -22,25 +22,23 @@ $result = mysqli_query($conn, $sql);
 	<title>Exportar tabla relaciones de elementos</title>
 </head>
 <body>
-<form method="post" action="exportar_geo_savecsv.php">
+<form method="post" action="exportar_rel.php">
 	<input type="submit" name="export" value="Exportar CSV" />
 </form>
 <table>
 	<tr>
-		<th>Título</th>
-		<th>Dirección</th>
-		<th>Latitud</th>
-		<th>Longitud</th>
+		<th>Elemento sujeto</th>
+		<th>Relación</th>
+		<th>Elemento objeto</th>
 	</tr>
 	<?php 
 	while($row = mysqli_fetch_array($result))
 	{
 		?>
 		<tr>
-			<td><?php echo $row["text"]; ?></td>
-			<td><?php echo $row["address"]; ?></td>
-			<td><?php echo $row["latitude"]; ?></td>
-			<td><?php echo $row["longitude"]; ?></td>
+			<td><?php echo $row["subject_item_id"]; ?></td>
+			<td><?php echo $row["property_id"]; ?></td>
+			<td><?php echo $row["object_item_id"]; ?></td>
 		</tr>
 	<?php
 	}
